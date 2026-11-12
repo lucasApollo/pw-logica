@@ -1,4 +1,4 @@
-x = "Ayrton"
-y = 10
+nome = "Lucas"
+sobrenome = "Apollo"
 
-print(x, "tem ",y, " anos.")
+print(nome, sobrenome)
