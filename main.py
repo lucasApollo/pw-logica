@@ -1,6 +1,4 @@
-print(5 + 5)
-print(2 + 2)
-print(1 + 4)
-print(10 - 2)
-print(7 * 3)
-print(10 / 2)
+x = "Ayrton"
+y = 10
+
+print(x, "tem ",y, " anos.")
