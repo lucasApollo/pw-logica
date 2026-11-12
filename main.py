@@ -1,7 +1,5 @@
-numero = int(input("Digite um numero inteiro: "))
-numero_com_virgula = float(input("Digite um numero com ponto: "))
-nome_string = input("Digite um nome: ")
+x, y, z = "Orange", "Banana", "Cherry"
 
-print("Veja o numero inteiro: ", numero)
-print("Veja o nomero com ponto: ", numero_com_virgula)
-print("Veja o nome digitado: ", nome_string)
+print(x)
+print(y)
+print(z)
