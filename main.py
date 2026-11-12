@@ -1,9 +1,6 @@
-a = 5
-b = 6.2
-nome = "Apollo"
-ligado = True
-
-print(a)
-print(b)
-print(nome)
-print(ligado)
+print(5 + 5)
+print(2 + 2)
+print(1 + 4)
+print(10 - 2)
+print(7 * 3)
+print(10 / 2)
