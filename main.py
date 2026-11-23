@@ -1,7 +1,7 @@
-nomes = ["Lucas", "Vinicios", "Davi", "Arthur", "Toddynho", "Arthur F", "Maria", "Pietra", "Miguel", "Apollo", "Bernardo", "Eric", "Kaua"]
+while True:
+    idade = int(input("Digite a sua idade: "))
+    if idade > 0:
+        break
+    print("Idade inválida! Tente novamente." )
 
-print(nomes [10])
-print(nomes [7])
-print(nomes [2])
-print(nomes [4])
-print(nomes [12])
+print("Idade registrada! ")
