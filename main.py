@@ -1,18 +1,7 @@
-import random
+nome = input("Digite seu nome:")
+peso = float(input("Coloque aqui seu peso em Kg:"))
+altura = float(input("Coloque aqui sua altura:"))
 
-numero_secreto = random.randint(1, 20)
-tentativas = 0
-palpite = int(input(
-    "Tente adivinhar um numero entre 1 e 20:"))
+resultado = peso / (altura ** 2)
 
-while palpite != numero_secreto:
-    tentativas += 1
-    if palpite < numero_secreto:
-        print("O número Secreto é maior! ")
-    else:
-        print("O número Secreto é menor! ")
-    palpite = int(input("Tente novamente: "))
-tentativas += 1
-print("Parabéns! Você acertou ✅")
-print(f"O número secreto era: {numero_secreto}")
-print(f"Você utilizou {tentativas} tentativas.")
+print(f"Olá {nome}, seu IMC é {resultado: .1f}:")
