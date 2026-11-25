@@ -1,7 +1,18 @@
-nome = input("Digite seu nome:")
-peso = float(input("Coloque aqui seu peso em Kg:"))
-altura = float(input("Coloque aqui sua altura:"))
 
-resultado = peso / (altura ** 2)
+quantidade = 0
+total = 0
 
-print(f"Olá {nome}, seu IMC é {resultado: .1f}:")
+preco = float(input("Digite o preço do produto: \n"
+                    "(Digite 0 para encerrar) \n"
+                    "R$ "))
+
+while preco != 0:
+    total += preco
+    quantidade += 1
+
+    preco = float(input("Digite o preço do próximo produto: \n"
+                        "(Digite 0 para encerrar) \n"
+                        "R$ "))
+
+print(f"Total da compra: R$ {total:.2f}")
+print(f"Quantidade dos produtos: {quantidade}")
