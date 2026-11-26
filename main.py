@@ -1,11 +1,16 @@
-aluno1 = "Pedro"
-aluno2 = "Lucas"
-aluno3 = "Bernardo"
-aluno4 = "Miguel"
+## tupla -> [] - permite alterações
+## tupla -> () - não permite alterações
+## dicionário -> {}
 
-alunos = ["Pedro", "Lucas", "Bernardo", "Miguel"]
+alunos = {
+    "João": 8,
+    "Maria": 9,
+    "Pedro": 5,
+    "Ana": 6
+}
 
-print(alunos[0])
-print(alunos[1])
-print(alunos[2])
-print(alunos[3])
+for nome, nota in alunos.items():
+    if nota >= 7:
+        print(f"{nome} está Aprovado(a)")
+    else:
+        print(f"{nome} está Reprovado(a)")
