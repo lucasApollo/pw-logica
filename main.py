@@ -1,7 +1,13 @@
-alunos = ["Pedro", "Maria", "Apollo", "Matheus", "Miguel"]
+notas = []
+soma = 0
+for contador in range(5):
+    nota = float(input(f"Digite a {contador + 1}ª nota: "))
+    notas.append(nota)
+    soma += nota
 
-contador = 0
-for aluno in alunos:
-    print(f"Aluno:  {contador} : {aluno}")
+media = soma / len(notas)
 
-    contador += 1
+print(f"A soma de todas as notas é: {soma}")
+print(f"As médias das notas é: {media}")
+print("Maior nota: ", max(notas))
+print("Menor nota: ", min(notas))
