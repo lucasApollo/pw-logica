@@ -1,16 +1,7 @@
-filmes = [
-    "Vingadores: Ultimato",
-    "Titanic",
-    "Harry Potter",
-    "O Rei Leão",
-    "Homem-Aranha"
-    ]
+alunos = ["Pedro", "Maria", "Apollo", "Matheus", "Miguel"]
 
-print("Lista de filmes:")
-print(filmes)
+contador = 0
+for aluno in alunos:
+    print(f"Aluno:  {contador} : {aluno}")
 
-print("\nPrimeiro filme:")
-print(filmes[0])
-
-print("\nÚltimo filme:")
-print(filmes[-1])
+    contador += 1
